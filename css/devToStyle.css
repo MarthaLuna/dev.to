@@ -1,0 +1,124 @@
+body
+{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.top_menu
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 1px;
+    border-bottom-color: gray;
+    border-style: solid;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top_menu .izq_menu
+{   
+   height: 80%;
+   width: 30%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 20px;
+}
+
+.top_menu .der_menu
+{   
+   height: 80%;
+   width: 30%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 10px;
+}
+
+.top_menu .izq_menu img
+{ 
+    height: 40px;
+    width: 50px;
+}
+
+.top_menu .izq_menu img:hover
+{ 
+    cursor: pointer;
+}
+#search_input
+{
+    height: 40px;
+    width: 80%;
+    border: none; /* <-- This thing here */
+    border:solid 1px #ccc;
+    border-radius: 5px;
+    color: gray;
+    
+    font-style: 10px;
+}
+
+#create_account_btn
+{
+    width: 30%;
+    height: 80%;
+    border: 1px;
+    border-color: blue;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: white;
+    font-size: 15px;
+    color: blue;
+}
+
+#login_btn
+{
+    width: 20%;
+    height: 80%;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    color: gray;
+    font-weight: bold;
+}
+
+#create_account_btn:hover
+{
+    width: 30%;
+    height: 80%;
+    border: 1px;
+    border-color: blue;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: blue;
+    font-size: 15px;
+    color: white;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+#login_btn:hover
+{
+    width: 20%;
+    height: 80%;
+    border: none;
+    border:solid 1px #EBECFC;
+    border-radius: 5px;
+    background-color: #EBECFC;
+    color: blue;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.test
+{   
+    padding: 200px;
+    height: 1000px;
+}
+    
